@@ -93,7 +93,6 @@ function M.setup(opts)
 
 	-- Directory bookmarks configuration
 	local default_dir_bookmark_config = {
-		toggle_key = "<TAB>",
 		open_action = function(_, _)
 			print("no dir action found")
 		end,
